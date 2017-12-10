@@ -5,7 +5,6 @@ stats
 
 # automatic file load
 getwd()
-setwd("/users/sulbha/documents/sulbha/r files") 
 getwd()
 stat1 <- read.csv("DemographicData.csv")
 stat1

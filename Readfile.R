@@ -1,6 +1,6 @@
 library(tidyverse)
 
-file_data <- read.csv("/Users/sulbha/Documents/sulbha/R Files/Data Files/flavors_of_cacao.csv")
+file_data <- read.csv("..//R Files/Data Files/flavors_of_cacao.csv")
 summary(file_data)
 names(file_data)
 names(file_data) <- make.names(names(file_data), unique = TRUE)
